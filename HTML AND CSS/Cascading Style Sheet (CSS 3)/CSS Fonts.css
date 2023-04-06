@@ -1,0 +1,17 @@
+@font-face {
+    font-family:abc;
+    src: url(Font\ \(free\ download\ from\ website\)/);
+}
+h1{
+/* font-weight:100px; */
+
+}
+p{
+    font-size: xx-large;
+    /* font-size: 30px;
+    font-weight: regular;
+    font-style: italic; */
+     font-family: abc,'Fasthand', cursive;
+    font-variant: small-caps; */
+
+}

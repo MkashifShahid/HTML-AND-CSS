@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL FORM - INPUT ELEMENTS IN ONE WEB PAGE USING HTML</title>
+    <style>
+        fieldset{
+            width: 400px;
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to left,green,yellow,red,orange,blue);">
+    <center>
+    <form style="margin-top: 50px;">
+       <fieldset>
+        <legend>MY NEW FORM</legend>
+       <label>Name:</label>
+        <input type="text" autofocus="autofocus" required="required" placeholder="Enter Your Name" autocomplete="on" name="txt"/>
+        <br><br>
+
+        <input list="nation" placeholder="Nationality"/>
+        <datalist id="nation">
+            <option value="Pakistan"></option>
+            <option value="India"></option>
+            <option value="Afganistan"></option>
+            <option value="Bangladesh"></option>
+            <option value="Srilanak"></option>
+            <option value="United Kingdom"></option>
+        </datalist>
+        <br><br>
+
+        <label>GENDER:</label>
+        <label>Male</label>
+        <input type="radio" name="name"/>
+        <label >Female </label>
+        <input type="radio" name="name">
+        <br><br>
+        
+        <label>HOBBIES :</label>
+        <label>Sports</label>
+        <input type="checkbox"/>
+        <label>Reading</label>
+        <input type="checkbox"/>
+        <label> Writing</label>
+        <input type="checkbox">
+        <br><br>
+
+        
+        <input type="email" placeholder="Email"/>
+        <br><br>
+        
+        
+         <input type="url" placeholder="Url"/>
+         <br><br>
+
+<label>Telephone:</label>
+<input type="tel"/>
+<br><br>
+
+<label>Number:</label>
+<input type="number"/>
+<br><br>
+<label>Range:</label>
+<input type="range">
+<br><br>
+
+<label> Date of Birth:</label>
+<input type="date"/>
+<br><br>
+
+<label>Month:</label>
+<input type="month">
+<br><br>
+
+<label>Week:</label>
+<input type="week"/>
+<br><br>
+
+<label>Time </label>
+<input type="time"/>
+<br><br>
+
+<label>Date and Time </label>
+<input type="datetime"/>
+<br><br>
+
+<label>Select Color:</label>
+<input type="color">
+<br><br>
+        <input type="submit">
+       </fieldset> 
+    </form>
+</center>
+
+</body>
+</html>

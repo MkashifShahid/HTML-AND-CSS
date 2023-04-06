@@ -1,0 +1,35 @@
+table{
+    background:linear-gradient(blue,green,yellow);
+    border: 1px black solid ;
+    border-collapse: collapse;
+    /* border-collapse: separate;
+    border-spacing: 15px; */
+    /* empty-cells: hide;
+    table-layout: fixed; */
+    /* width: 100%; */
+}
+caption{
+  background:green;
+    border: 1px black solid ;
+    caption-side: bottom;
+    font-size: large;
+   /* font-style: italic; */
+   /* font-variant: small-caps; */
+}
+th{
+    border: 1px black solid ;
+    height: 40px;
+    width: 120px;
+    
+
+}
+
+td{
+    border: 1px black solid ;
+    height: 40px;
+    width:120px ;
+    text-align: center;
+}
+fieldset{
+    width: fit-content;
+}

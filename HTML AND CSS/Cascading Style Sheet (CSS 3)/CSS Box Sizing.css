@@ -1,0 +1,19 @@
+:root{
+    --bg1-color:red;
+    --bg2-color:blue
+}
+
+#div1{
+    height: 300px;
+    width: calc(100% - 400px);
+    background-color: var(--bg1-color);
+}
+
+#div2{
+    height: 300px;
+    width: calc(100% - 400px);
+    background-color: var(--bg2-color);
+    padding: 50px;
+    border: 10px black ridge;
+    box-sizing:border-box;
+}

@@ -1,0 +1,12 @@
+#bg{
+   
+    background-image: url(images/pexels-travis-blessing-1363876.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+/* body{
+    background-color: blue;
+} */

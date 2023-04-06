@@ -1,0 +1,25 @@
+:root{  
+    
+    --backgroud-color:blue;
+    --text-color:green;
+    --btn-color:red;
+}
+
+#Functions{
+    height: 300px;
+    width: calc(100% - 200px);
+    background-color: var(--backgroud-color)
+}
+
+a{
+    width: fit-content;
+    padding: 20px  50px;
+    margin:400px 50px;
+    text-decoration: none;
+    font-size: x-large;
+    color: var(--text-color);
+    background-color: var(--btn-color);
+}
+
+
+

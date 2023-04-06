@@ -1,0 +1,25 @@
+h1{
+    font-style: italic;
+    font-variant:small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type:square;
+   
+}
+
+ol{
+    list-style-type:decimal-leading-zero;
+     /* list-style-position: inside; */
+    
+}
+li{
+    border: 1px black solid;
+    /* margin: 3px; */
+}
+body{
+    background-image: url(images/pexels-travis-blessing-1363876.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

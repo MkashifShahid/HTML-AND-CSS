@@ -1,0 +1,26 @@
+
+
+
+#mydiv{
+    border: 2px black ridge;
+    height: 200px;
+    width: 490px;
+    background-color:green;
+    margin-bottom: 20px;
+  
+
+}
+#reddiv{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+    margin-top: -100px;
+    opacity:0.5;
+}
+
+img{
+    margin-top: 10px;
+}
+img:hover{
+    opacity: 0.7;
+}

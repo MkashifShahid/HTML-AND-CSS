@@ -1,0 +1,18 @@
+#green{
+    color: green;
+    font-size: x-large;
+}
+
+#blue{
+color: red;
+text-decoration: none;
+}
+
+#initial{
+color: initial;
+text-decoration: none;
+}
+#inherit{
+color: inherit;
+text-decoration: none;
+}
