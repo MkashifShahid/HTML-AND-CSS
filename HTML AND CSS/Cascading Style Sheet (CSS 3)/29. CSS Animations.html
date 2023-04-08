@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Animations</title>
+    <style>
+        body{
+            background: linear-gradient(to left,green,orange,yellow);
+        }
+        @keyframes changecolor{
+            0%{ background-color: red; height: 400; width: 400;}
+            10%{ background-color:blueviolet; height: 450; width: 450;}
+            20%{ background-color: orange;height: 500; width: 050;}
+            30%{ background-color:blue;height: 550; width: 550;}
+            40%{ background-color: green;height: 600; width: 600;}
+            50%{ background-color: red; height: 650; width: 650;}
+            10%{ background-color:blueviolet; height: 0; width: 450;}
+            20%{ background-color: orange;height: 500; width: 050;}
+            30%{ background-color:blue;height: 550; width: 550;}
+            40%{ background-color: green;height: 600; width: 600;}
+
+        }
+        @keyframes kashif{
+            0%{ background-color: red; border-radius: 0%;}
+            10%{ background-color: blue; border-radius: 10%;}
+            20%{ background-color: white; border-radius: 20%;}
+            30%{ background-color: yellow; border-radius: 30%;}
+            40%{ background-color: aqua; border-radius: 4%;}
+            50%{ background-color: green; border-radius: 5%;}
+            60%{ background-color: orange; border-radius: 40%;}
+            70%{ background-color:black; border-radius: 3%;}
+            80%{ background-color: blueviolet; border-radius: 20%;}
+            90%{ background-color: red; border-radius: 10%;}
+            100%{ background-color: orangered; border-radius: 0%;}
+        
+
+        }
+        #animation{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            margin-top: 200px;
+            margin-left: 400px;
+            animation-name:changecolor;
+            animation-duration: 4s;
+            /* animation-delay: 1s; */
+             animation-iteration-count: infinite;
+       
+        }
+        
+        #animation1{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            margin-top: 200px;
+            margin-left: 400px;
+            animation-name:kashif;
+            animation-duration: 10s;
+            /* animation-delay: 1s; */
+             animation-iteration-count: infinite;
+             animation-direction: alternate;
+             /* animation-timing-function: ease-in-out; */
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <div id="animation"></div>
+    <hr>
+    <div id="animation1"></div>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@media screen {
+    
+    p{
+        font-size: 20px;
+    }
+}
+@media print{
+    p{
+        font-size: 30px;
+        font-style: italic;
+    }
+    img{
+        display: none;
+    }
+    div{
+        width: 100%;
+    }
+
+}
