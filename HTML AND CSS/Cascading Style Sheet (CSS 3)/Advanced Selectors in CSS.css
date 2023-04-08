@@ -1,0 +1,68 @@
+
+/* 1.Element Selector */
+li{
+    color:red;
+}
+
+/* 2.ID Selector */
+#list2{
+color:black !important;
+}
+
+/* 3.Class Selector */
+.list5{
+    color:green !important;
+}
+
+/* 4.pseudo-class  */
+/* a:hover{
+    color:skyblue; 
+} */
+
+/* 5.Pseudo-Element */
+p::first-line{
+    color:red;
+}
+
+/* 6.Attribute-Selector */
+a[href="https://www.google.com"]{
+    color:red;
+}
+a[ href="https://yahoo.com"]{
+    color:orange;
+}
+
+/* 7.Universal-selector */
+/* *{
+    border:1px black ridge;
+} */
+
+/* 8.Siblings and child selector */
+/* div p{
+color:blue;
+} */
+
+/* direct child */
+div>p {
+    color:skyblue;
+}
+
+/* just Siblings */
+div +a{
+    color:green;
+}
+
+/* just siblings */
+/* div ~ a{
+    ......
+} */
+
+/* 9.AND Selecter (Assign css properties at a Time than we
+use and selecter) 
+for Example */
+/* h1,p{
+    color:red;
+} */
+h1{
+    color:red;
+}
