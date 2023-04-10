@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Grid</title>
+
+    <style>
+        .grid-container{
+            background-color: blueviolet;
+            padding: 20px;
+            display: grid;
+            grid-gap:5px;
+            grid-template-areas: 
+               'header header header header header header'
+               'menu main main main  right right'
+               'menu footer footer footer footer footer'
+            ;
+            /* grid-template-columns: 1000px auto auto 50px  100px; */
+            /* grid-template-columns: 200px 300px 200px  ; */
+            /* grid-template-rows: 100px 200px auto; */
+            /* grid-column-gap:10px ;
+            grid-row-gap: 10px;
+            justify-content: space-evenly; */
+            /* height: 400px; */
+            /* align-content: space-evenly; */
+        }
+        .grid-item{
+            background-color: wheat;
+            border: 1px black solid ;
+            padding: 20px;
+            font-size: 40px;
+            text-align: center;
+        }
+        #grid-1{
+                grid-area:header;
+        }
+        #grid-2{
+            grid-area:menu;
+        }
+        #grid-3{
+            grid-area:main;
+        }
+        #grid-4{
+            grid-area:right;
+        }
+        #grid-5{
+            grid-area:footer;
+        }
+        /* #grid-5{
+            grid-area:1/2/3/5;
+        } */
+        /* #grid-1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+             /* grid-row-start: 1;
+            /* grid-row-end: 4; */
+            /* grid-column: 1/span 3; */
+              /* grid-row: 1/span 3; */  
+
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item" id="grid-1">Header</div>
+        <div class="grid-item" id="grid-2">Menu</div>
+        <div class="grid-item" id="grid-3">Main</div>
+        <div class="grid-item" id="grid-4">Right</div>
+        <div class="grid-item" id="grid-5">Footer</div>
+        <!-- <div class="grid-item" id="grid-6">6</div>
+        <div class="grid-item" id="grid-7">7</div>
+        <div class="grid-item" id="grid-8">8</div>
+        <div class="grid-item" id="grid-9">9</div> -->
+    </div>
+</body>
+</html>
