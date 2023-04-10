@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS</title>
+    <link rel="stylesheet" href="Flex-container.css">
+    <style>
+        #flex-container{
+            background-color: indianred;
+            display: flex;
+            height: 400px;
+            /* flex-flow: row wrap;
+            /* justify-content: space-between; */
+            /* height: 70vh;
+            align-items:flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: space-between;  */
+            /* align-content: flex-end; */
+            /* justify-content:flex-start ; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap;
+            flex-wrap: wrap-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+
+        }
+
+        .flex-child{
+            background-color: wheat;
+            margin: 20px;
+            padding: 20px;
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+        }
+
+        #one{
+            align-self: flex-start;
+            /* flex-shrink: 2; */
+            /* flex-grow:1 ; */
+            /* order: 2; */
+        }
+        #two{
+            align-self: center;
+            /* flex-basis: 300px; */
+            /* flex-grow:1 ; */
+            /* order: 3;  */
+        }
+        #three{
+            align-self: flex-end;
+            /* flex-grow:2 ; */
+            /* order: 1; */
+        }
+    </style>
+</head>
+<body>
+    <div id="flex-container">
+        <div class="flex-child" id="one">ONE</div>
+        <div class="flex-child" id="two">TWO</div>
+        <div class="flex-child" id="three">THREE</div>
+        <!-- <div class="flex-child">FOUR</div>
+        <div class="flex-child">FIVE</div>
+        <div class="flex-child">SIX</div>
+        <div class="flex-child">SEVEN</div>
+        <div class="flex-child">EIGHT</div>
+        <div class="flex-child">NINE</div> -->
+
+    </div>
+</body>
+</html>
